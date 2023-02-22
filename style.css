@@ -34,10 +34,9 @@ body {
   border-radius: 0 0 0 70px;
   background-position: absolute;
   background-size: 100% 100%;
-  
 }
 
-.vector{
+.vector {
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -80,11 +79,10 @@ nav a {
   padding: 0;
 }
 
-.front{
+.front {
   width: 920px;
   height: 300px;
-  padding: 0  30px 50px  250px  ;
-
+  padding: 0  30px 50px  250px;
 }
 
 #title {
@@ -134,7 +132,6 @@ nav a {
   margin-top: 5px;
   margin-left: 16px;
   margin-right: 16px;
-
 }
 
 .info-abt {
@@ -170,8 +167,7 @@ nav a {
   margin-left: 5px;
   width: 500px;
   height: 100px;
-  padding: 70px  30px 140px  250px
- 
+  padding: 70px  30px 140px  250px;
 }
 
 .abt-icons {
@@ -184,10 +180,6 @@ nav a {
 
 li {
   list-style: none;
-}
-
-a {
-  text-decoration: none;
 }
 
 .middle-section {
@@ -205,14 +197,14 @@ a {
   width: 90%;
 }
 
-.sidep{
+.sidep {
   display: flex;
   flex-direction: column;
   width: 50%;
   height: 5%;
 }
 
-.sidew{
+.sidew {
   display: flex;
   flex-direction: column;
   width: 50%;
@@ -220,14 +212,14 @@ a {
   margin: 20px;
 }
 
-.sidea{
+.sidea {
   display: flex;
   flex-direction: column;
   width: 50%;
   padding-left: 86px;
 }
 
- .sidel{
+.sidel {
   display: flex;
   flex-direction: column;
   padding-top: 50px;
@@ -294,12 +286,11 @@ a {
   color: #6070ff;
 }
 
-.sees{
+.sees {
   margin: 5%;
   margin-top: 20px;
   margin-bottom: 80px;
   color: #fff;
-
 }
 
 .button {
@@ -319,7 +310,8 @@ a {
   flex-direction: row;
   align-items: center;
 }
-.buttons{
+
+.buttons {
   background-color: #6070ff;
   border: 1px solid #6070ff;
   font-style: normal;
@@ -335,10 +327,7 @@ a {
   display: flex;
   flex-direction: row;
   align-items: center;
-
 }
-
-
 
 button:hover {
   background: #6070ff;
@@ -373,7 +362,6 @@ h1 {
   flex-direction: row;
   align-items: center;
   margin-left: 16px;
-
 }
 
 .buttonr:hover {
@@ -434,7 +422,6 @@ ul ul {
   gap: 10px;
   border-radius: 12px;
   color: #253858;
- 
 }
 
 .form {
@@ -460,7 +447,6 @@ ul ul {
 .formcenter {
   width: 30%;
   align-self: center;
-
 }
 
 .contact-head {
@@ -507,17 +493,15 @@ textarea::placeholder {
   border-radius: 8px;
   border: none;
   color: #6070ff;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  
 }
-.btnsize{
+
+.btnsize {
   width: 50%;
   align-self: center;
-
 }
 
 .contact-button:hover {

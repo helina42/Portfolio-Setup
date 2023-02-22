@@ -7,7 +7,7 @@
   
   <br/>
 
-  <h3><b>Portfolio setup and mobile</b></h3>
+  <h3><b>Portfolio setup and Desktop</b></h3>
 
 </div>
 
@@ -37,14 +37,18 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio setup and mobilee] <a name="about-project"></a>
+# 📖 [Portfolio setup and Desktop] <a name="about-project"></a>
 
 > This project for learning and master all of the tools and best practices you learned about Linters, Git & GitHub flow and Documenting repo in a professional way. Then through submmission, micronauts understand the workflow of how our future work will be. 
 This project include adding files, using linters, adding specific programs to projects and making an understandable descriptive page. 
 This project mainly includes creating a Protolio set up for the size of a mobile.It includes creating a top bar which has a logo and an option like menu that are resposive to a click.
 It also includes a headline section where the information about the persons protfolio and other responsive icons.
+Use media queries in your CSS file to make your desktop version look like the template you selected (Desktop: >=768px).
+In order to lay out the elements on the page you should use Grid and Flexbox.
+You don't need to implement any functionality that requires JavaScript.
+You must replicate the design as much as possible (e.g., font, colors, images, text, margins) using the info from the Figma templates.
 
-**[Portfolio setup and mobilee]** is an inital design project for a portfolio.
+**[Portfolio setup and Desktop]** is an inital design project for a portfolio.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -57,23 +61,17 @@ It also includes a headline section where the information about the persons prot
 
 <details>
   <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/"></a></li>
-  </ul>
+  
 </details>
 
 <details>
   <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/"></a></li>
-  </ul>
+  
 </details>
 
 <details>
 <summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/"></a></li>
-  </ul>
+
 </details>
 
 <!-- Features -->
@@ -87,13 +85,15 @@ Make sure that you documented your work.
 Responsive deisign of a portfolio.
 Usage of flexbox
 Responsive Contact form 
+Responsive deisign of a Desktop portfolio
 
 - **[No linter errors]**
 - **[Correct (GitHub flow)]**
 - **[Proper documented work]**
-- **Responsive deisign of a portfolio]**
+- **[Responsive deisign of a portfolio]**
 - **[Usage of flexbox]**
 - **[Responsive Contact form]**
+- **[Responsive deisign of a Desktop portfolio]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -161,6 +161,7 @@ Example command:
 -Minimum desktop screen size should be 768px
 -Use responsive values in your CSS rules, like percentages (i.e. width: 80%), instead of pixels
 -Contact form to portfolio is added.
+-Design for Desktop portfolio is added.
 
 
 <!--
@@ -242,11 +243,6 @@ Example:
 
 - GitHub: [@helina42](https://github.com/helina42)
 
-**Phone Khaing Hein**
-
-- GitHub: [@Phone Khaing Hein](https://github.com/Rimuru-Tempest-26)
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -259,6 +255,7 @@ Example:
 - [Add about perivious work ] **[new_feature_1]**
 - [Add more about the person ] **[new_feature_2]**
 - [Add remaining contact form and finish mobile version ] **[new_feature_3]**
+- [Add links to connect the button on the Desktop portfolio] **[new_feature_3]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -288,7 +285,6 @@ If you like this project...
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > I would like to thank Microverse for giving me the chance to test myself during this project!.
->I would like to thank @Phone Khaing Hein for his hollaborative help dufing this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
