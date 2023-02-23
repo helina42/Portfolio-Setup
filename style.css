@@ -4,8 +4,12 @@ body {
   min-height: 100%;
   font-family: "Poppins", sans-serif;
   background-color: #e5e5e5;
-  overflow-x: hidden;
+  overflow: auto;
   display: grid;
+}
+
+@media only screen and (min-width: 375px) {
+  /* stylelint-disable-line block-no-empty */
 }
 
 @media only screen and (max-width: 768px) {
@@ -19,6 +23,8 @@ body {
 .toolbar p {
   color: #6070ff;
   padding-left: 60px;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .headline {
@@ -28,12 +34,13 @@ body {
   margin: 0 auto;
   width: 100%;
   background-color: #fff;
-  background-image: url(/Images/Header\ bg@2x.svg);
+  background-image: url(./Images/Header\ bg@2x.svg);
   background-repeat: no-repeat;
   margin-top: 0;
   border-radius: 0 0 0 70px;
   background-position: absolute;
   background-size: 100% 100%;
+  margin: 0 0 0 0;
 }
 
 .vector {
@@ -49,6 +56,7 @@ body {
 nav a {
   color: #344563;
   background-color: #fff;
+  text-decoration: none;
 }
 
 .toolbar {
@@ -64,6 +72,8 @@ nav a {
   height: 100px;
   gap: 70%;
   justify-content: space-around;
+  padding-left: 155px;
+  padding-right: 155px;
 }
 
 .header {
@@ -74,15 +84,13 @@ nav a {
   align-items: flex-start;
   color: #172b4d;
   width: 900px;
-  margin-left: 16px;
-  margin-top: 120px;
   padding: 0;
 }
 
 .front {
   width: 920px;
   height: 300px;
-  padding: 0  30px 50px  250px;
+  margin: 359px 260px 435px;
 }
 
 #title {
@@ -93,9 +101,6 @@ nav a {
   align-items: center;
   color: #172b4d;
   width: 80%;
-  margin-left: 16px;
-  margin-top: 1px;
-  margin-bottom: 1px;
 }
 
 .abt {
@@ -105,8 +110,7 @@ nav a {
   display: flex;
   align-items: center;
   color: #172b4d;
-  width: 80%;
-  margin-left: 16px;
+  margin-left: 0px;
   margin-top: 80px;
   margin-bottom: 1px;
 }
@@ -114,13 +118,11 @@ nav a {
 .info {
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   color: #344563;
-  width: 900px;
-  margin-top: 5px;
-  margin-left: 16px;
-  margin-right: 16px;
-  margin-bottom: 40px;
+  width: 920px;
+  height: 98px;
+  margin: 0;
 }
 
 .infom {
@@ -130,7 +132,7 @@ nav a {
   color: #344563;
   width: 89%;
   margin-top: 5px;
-  margin-left: 16px;
+  margin-left: 0px;
   margin-right: 16px;
 }
 
@@ -140,7 +142,7 @@ nav a {
   font-size: 16px;
   color: #344563;
   width: 90%;
-  margin-left: 16px;
+  margin-left: 0px;
   margin-right: 16px;
   margin-bottom: 5px;
 }
@@ -150,9 +152,7 @@ nav a {
   font-weight: normal;
   font-size: 1.2em;
   color: #7f8cff;
-  margin-left: 16px;
-  margin-bottom: 10px;
-  margin-top: 5px;
+  margin: 0;
 }
 
 .connect h3 {
@@ -161,13 +161,11 @@ nav a {
 
 .icons {
   display: flex;
-  justify-content: space-around;
   align-items: flex-start;
-  gap: 1px;
-  margin-left: 5px;
-  width: 500px;
+  gap: 26px;
+  width: 250px;
   height: 100px;
-  padding: 70px  30px 140px  250px;
+  padding-left: 0px;
 }
 
 .abt-icons {
@@ -175,7 +173,7 @@ nav a {
   align-items: flex-start;
   margin-top: 16px;
   gap: 3%;
-  margin-left: -25px;
+  padding: 0;
 }
 
 li {
@@ -195,6 +193,7 @@ li {
   margin-top: 120px;
   flex: 1;
   width: 90%;
+  height: 11%;
 }
 
 .sidep {
@@ -215,7 +214,7 @@ li {
 .sidea {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 100%;
   padding-left: 86px;
 }
 
@@ -236,7 +235,7 @@ li {
   display: flex;
   align-items: center;
   width: 90%;
-  padding-left: 16px;
+  padding-left: 0px;
   gap: 5%;
   margin-top: 1px;
   margin-bottom: 1px;
@@ -264,7 +263,7 @@ li {
   gap: 5%;
   color: #6070ff;
   margin: 0;
-  padding-left: 5px;
+  padding-left: 0px;
 }
 
 .hcj {
@@ -280,14 +279,14 @@ li {
 }
 
 .see {
-  margin: 5%;
+  margin: 0;
   margin-top: 20px;
   margin-bottom: 80px;
   color: #6070ff;
 }
 
 .sees {
-  margin: 5%;
+  margin: 0%;
   margin-top: 20px;
   margin-bottom: 80px;
   color: #fff;
@@ -361,7 +360,7 @@ h1 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 16px;
+  margin-left: 0px;
 }
 
 .buttonr:hover {
@@ -374,8 +373,8 @@ ul ul {
 }
 
 .about-sec {
-  display: flex;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 40% 60%;
   margin: 0 auto;
   box-sizing: border-box;
   border: 1px solid #dfe1e6;
@@ -400,8 +399,7 @@ ul ul {
 }
 
 .options {
-  margin-left: 35px;
-  width: 180%;
+  width: 80%;
   padding: 0;
 }
 
@@ -445,12 +443,16 @@ ul ul {
 }
 
 .formcenter {
-  width: 30%;
+  width: 77%;
   align-self: center;
+  padding: 142px 320px 127px;
 }
 
 .contact-head {
   text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
 }
 
 .contact-info {
@@ -469,6 +471,11 @@ input {
   border: 1px solid #cfd8dc;
   padding: 15px 0 15px 16px;
   width: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  font-family: "Poppins", sans-serif;
 }
 
 textarea {
@@ -500,7 +507,6 @@ textarea::placeholder {
 }
 
 .btnsize {
-  width: 50%;
   align-self: center;
 }
 
